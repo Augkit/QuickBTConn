@@ -1,0 +1,18 @@
+# 统一文本文件换行符，避免跨平台 diff 噪音
+* text=auto
+
+# 脚本保持原样换行
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# 二进制文件不做换行转换
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.apk binary
+*.jks binary
+*.keystore binary

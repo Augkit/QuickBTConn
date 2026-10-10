@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.quickbtconn.WidgetConfigActivity"
+    android:description="@string/compat_note"
+    android:initialLayout="@layout/widget_shaped"
+    android:minWidth="64dp"
+    android:minHeight="64dp"
+    android:previewLayout="@layout/widget_shaped"
+    android:resizeMode="none"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable" />

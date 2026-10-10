@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">蓝牙快捷连接</string>
+    <string name="config_title">设置蓝牙小组件</string>
+    <string name="device_label">选择已配对设备</string>
+    <string name="style_label">小组件样式</string>
+    <string name="icon_label">图标</string>
+    <string-array name="icon_entries">
+        <item>自动识别</item>
+        <item>蓝牙</item>
+        <item>耳机 · AirPods 式</item>
+        <item>头戴式耳机</item>
+        <item>手表 / 手环</item>
+        <item>音箱</item>
+        <item>键盘</item>
+        <item>鼠标</item>
+        <item>车载蓝牙</item>
+    </string-array>
+    <string name="style_dark">深色 · 系统图标形状</string>
+    <string name="style_blue">蓝色 · 系统图标形状</string>
+    <string name="style_clear">透明</string>
+    <string name="save">保存小组件</string>
+    <string name="permission_needed">需要“附近设备”权限才能读取和连接蓝牙设备。</string>
+    <string name="no_devices">没有已配对设备，请先在系统蓝牙设置中完成配对并连接一次。</string>
+    <string name="compat_note">Android 17 可直接连接所有已启用配置文件；旧版本会尝试 BLE 或设备厂商允许的经典蓝牙连接。</string>
+    <string name="home_hint">请长按桌面，在“小组件”中添加“蓝牙快捷连接”。每个小组件都可以选择一个设备和独立样式。</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="6dp">
+    <ImageView android:id="@+id/widget_background" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:src="@drawable/widget_bg_clear"
+        android:contentDescription="@null" />
+    <ImageView android:id="@+id/widget_icon" android:layout_width="48dp"
+        android:layout_height="48dp" android:layout_gravity="center"
+        android:src="@drawable/ic_bluetooth" android:contentDescription="@string/app_name" />
+    <ViewFlipper android:id="@+id/widget_breath" android:layout_width="48dp"
+        android:layout_height="48dp" android:layout_gravity="center"
+        android:autoStart="true" android:flipInterval="500"
+        android:inAnimation="@anim/breath_in" android:outAnimation="@anim/breath_out"
+        android:visibility="gone">
+        <ImageView android:id="@+id/widget_breath_a" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:src="@drawable/ic_bluetooth"
+            android:contentDescription="@null" />
+        <ImageView android:id="@+id/widget_breath_b" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:src="@drawable/ic_bluetooth"
+            android:contentDescription="@null" />
+    </ViewFlipper>
+</FrameLayout>

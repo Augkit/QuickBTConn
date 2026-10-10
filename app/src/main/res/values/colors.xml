@@ -1,0 +1,5 @@
+<resources>
+    <color name="bg_dark">#E61F232B</color>
+    <color name="bg_blue">#E62C64D8</color>
+    <color name="transparent">#00000000</color>
+</resources>
